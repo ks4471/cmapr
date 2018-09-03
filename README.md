@@ -21,7 +21,7 @@ all_genes_profiled=c("ABCA4","ABCG4","ACOT7","ACSM4","AASDHPPT","ABCE1","ABHD13"
 
 ```
 cnet=cmapr(modg=input_gene_set,bkg=all_genes_profiled)
-write.file(cnet$pval,file=paste0('~/Dropbox/PROJ/cdkl5m32/out/txt/cmap.male.DEGsva5_FDR',FDR_thresh,'.txt'))
+write.file(cnet$pval,file='out/cmap_enrichment_results.txt')
 
 ```
 
