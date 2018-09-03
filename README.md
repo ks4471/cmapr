@@ -6,6 +6,7 @@ To run enrichment, install addR - contains all relevant functions, including dep
 
 ```
 devtools::install_github("ks4471/addR")
+library(adds)
 ```
 
 gene set of interest split into up or down regulated in the phenotype of interest, if unknown, set all as up or down
