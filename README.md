@@ -1,5 +1,5 @@
 
-# Enrichment test for gene sets associated with a trait of interest for drugs profiled by Connectivity Map (CMAP) that act to reverse observed transcriptional changes
+## Enrichment test for gene sets associated with a trait of interest for drugs profiled by Connectivity Map (CMAP) that act to reverse observed transcriptional changes
 
 To run enrichment, install addR - contains all relevant functions, including dependencies for cmapr()
 
@@ -32,5 +32,5 @@ write.file(cnet$pval,file='out/cmap_enrichment_results.txt')
 
 
 
-# raw connectivity map CMAP data re-analysed with correction for batch and covariates
+### raw connectivity map CMAP data re-analysed with correction for batch and covariates
 https://www.broadinstitute.org/connectivity-map-cmap
