@@ -19,7 +19,10 @@ background - include all genes with a detectable signal in the experiment
 all_genes_profiled=c("ABCA4","ABCG4","ACOT7","ACSM4","AASDHPPT","ABCE1","ABHD13","ABRAXAS2","AARS" "AARS2" "ABCE1" "ABCF1")
 ```
 
+test requires re-analysed data available at https://www.dropbox.com/s/18l1w2jbqld2mej/cmap.enrich.data.Rdata?dl=0
+
 ```
+Load('cmap.enrich.data.Rdata')
 cnet=cmapr(modg=input_gene_set,bkg=all_genes_profiled)
 write.file(cnet$pval,file='out/cmap_enrichment_results.txt')
 
